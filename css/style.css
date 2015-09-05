@@ -175,11 +175,11 @@ body {background:#fff;color:#666;font-size:14px;font-family:"微软雅黑","宋�
 }
 
 .count-item {
-	width: 245px;
+	width: 215px;
 	height: 142px;
 	float: left;
 	text-align: left;
-	padding-left: 40px; 
+	padding-left: 70px; 
 }
 
 .count-num {
@@ -609,4 +609,209 @@ body {background:#fff;color:#666;font-size:14px;font-family:"微软雅黑","宋�
 
 .authen img {
 	margin-left:10px;
+}
+
+.login-top {
+	width: 100%;
+	height: 40px;
+	background: #4f4f4f;
+}
+
+.login-topin {
+	width: 1150px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.login-topin .tel {
+	float: left;
+	color: #a6a6a6;
+	line-height: 40px;
+}
+
+.login-topin .link {
+	float: right;
+	color: #a6a6a6;
+	line-height: 40px;
+	margin-left: 20px;
+}
+
+.login-logo {
+	width: 1150px;
+	height: 90px;
+	margin: 0 auto;
+}
+
+.login-logo a {
+	font-size: 45px;
+	line-height: 90px;
+	color: #000;
+}
+
+.login-div {
+	width: 1148px;
+	height: 464px;
+	border: 1px solid #e6e6e6;
+	margin: 0 auto 120px; 
+}
+
+.login-div-l {
+	width: 590px;
+	height: 464px;
+	float: left;
+}
+
+.login-div-r {
+	width: 368px;
+	height: 364px;
+	float: left;
+	padding: 50px 90px;
+}
+
+.login-div-r h3 {
+	font-size: 20px;
+	color: #333;
+	padding-bottom: 20px;
+}
+
+.login-div-r tr {
+	height: 50px;
+}
+
+.login-div-r td.label {
+	width: 45px;
+	font-size: 14px;
+}
+
+.login-div-r td.input {
+	width: 300px;
+}
+
+.login-div-r td.login-reg {
+	text-align: center;
+}
+
+.login-div-r td.login-reg a{
+	color: #f75b00;
+	font-size: 12px;
+}
+
+#remember {
+	vertical-align: middle;
+	margin-right: 6px;
+}
+
+#fgt-pwd {
+	float: right;
+	color: #0d6aca;
+	font-size: 12px;
+}
+
+#valicode {
+	color: #000;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: top;
+	cursor: pointer;
+	margin-left: 10px;
+	width: 98px;
+	height: 32px;
+	border: 1px solid #d9d9d9;
+	background: url(../images/valicodebg.jpg) repeat-x;
+}
+
+.login-div-r td.input input{
+	width: 280px;
+	font-size: 14px;
+	padding: 6px 10px;
+	border: 1px solid #c2c2c2;
+	color: #666;
+}
+
+.login-btn {
+	width: 298px;
+	height: 38px;
+	line-height: 30px;
+	border: 1px solid #dd4f00;
+	background: #ff721a;
+	text-align: center;
+	color: #fff;
+	outline: 0;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.login-bottom {
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	background: #333;
+}
+
+.login-bottom p {
+	font-size: 12px;
+	color: #969595;
+}
+
+.reg-div {
+	width: 1058px;
+	height: 470px;
+	padding: 45px;
+	border: 1px solid #e6e6e6;
+	margin: 0 auto 20px;
+	position: relative;
+}
+
+.reg-div .reg-log {
+	position: absolute;
+	top: 50px;
+	right: 10px;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
+
+.reg-div h3 {
+	font-size: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dbdbdb; 
+}
+
+.reg-div-l {
+	width: 608px;
+	height: 430px;
+	float: left;
+	padding-top: 40px;
+}
+
+.reg-div-l tr {
+	height: 50px;
+}
+
+.reg-div-l td.label {
+	width: 100px;
+	text-align: right;
+	font-size: 14px;
+	color: #666;
+}
+
+.reg-div-l td.input {
+	width: 300px;
+}
+
+.reg-div-l td.input input{
+	width: 280px;
+	font-size: 14px;
+	padding: 6px 10px;
+	border: 1px solid #c2c2c2;
+	color: #666;
+}
+
+.reg-div-r {
+	width: 450px;
+	height: 398px;
+	float: left;
 }
