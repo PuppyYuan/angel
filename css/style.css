@@ -1058,3 +1058,17 @@ body {background:#fff;color:#666;font-size:14px;font-family:"微软雅黑","宋�
 	color: #f83836;
 	font-size: 14px;
 }
+
+.proj-detail-left {
+	width: 835px;
+	float: left;
+	margin-right: 10px;
+	background: #fff;
+	padding: 20px;
+}
+
+.proj-detail-right {
+	width: 265px;
+	float: left;
+	background: #fff;
+}
