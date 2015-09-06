@@ -65,10 +65,13 @@ body {background:#fff;color:#666;font-size:14px;font-family:"微软雅黑","宋�
 .nav-l {
 	width: 260px;
 	height: 88px;
+	float: left;
+}
+
+.nav-l a {
 	line-height: 88px;
 	color: #000;
 	font-size: 45px;
-	float: left;
 }
 
 .nav-m {
@@ -110,7 +113,11 @@ body {background:#fff;color:#666;font-size:14px;font-family:"微软雅黑","宋�
 	float: left;
 }
 
-.nav-r button {
+.nav-r a {
+	text-align: center;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
 	background: url(../images/nav-btn.png) no-repeat;
 	width: 71px;
 	height: 24px;
@@ -118,7 +125,7 @@ body {background:#fff;color:#666;font-size:14px;font-family:"微软雅黑","宋�
 	outline: 0;
 	color: #fff;
 	cursor: pointer;
-	line-height: 24px;
+	line-height: 22px;
 	margin-top: 32px;
 	font-size: 14px;
 }
@@ -814,4 +821,240 @@ body {background:#fff;color:#666;font-size:14px;font-family:"微软雅黑","宋�
 	width: 450px;
 	height: 398px;
 	float: left;
+}
+
+.content {
+	width: 100%;
+	background: #f8f8f8;
+}
+
+.main {
+	width: 1150px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.list-left {
+	width: 875px;
+	float: left;
+	margin-right: 10px;
+}
+
+.list-filter {
+	width: 837px;
+	padding: 20px 18px;
+	border: 1px solid #eee;
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+.list-filter-row {
+	height: 26px;
+	line-height: 26px;
+}
+
+.list-filter-row label {
+	color: #999;
+}
+
+.list-filter-row a {
+	padding: 5px 10px;
+	font-size: 14px;
+	color: #333;
+	margin-right: 10px;
+}
+
+.list-filter-row a.active {
+	background: #12afff;
+	color: #fff;
+}
+
+.list-order {
+	width: 837px;
+	padding: 10px 18px;
+	border: 1px solid #eee;
+	background: #f2f2f2;
+}
+
+.list-order-row {
+	height: 26px;
+	line-height: 26px;
+}
+
+.list-order-row label {
+	color: #999;
+}
+
+.list-order-row a {
+	padding: 5px 10px;
+	font-size: 14px;
+	color: #333;
+	margin-right: 10px;
+}
+
+.list-order-row .active {
+	color: #12afff;
+}
+
+.list-list {
+	width: 837px;
+	border: 1px solid #eee;
+	border-top: 0;
+	padding: 29px 18px;
+}
+
+.list-list-proj {
+	width: 263px;
+	border: 1px solid #ededed;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+.list-proj-img {
+	display: block;
+}
+
+.list-proj-ttl {
+	font-size: 14px;
+	color: #333;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	padding: 13px 12px;
+}
+
+.list-proc-proc {
+	width: 240px;
+	height: 3px;
+	background: #d9d9d9;
+	margin: 0 auto;
+}
+
+.list-proc-now {
+	height: 3px;
+	background: #ff6c0a;
+}
+
+.list-proj-bread {
+	width: 240px;
+	margin: 13px auto;
+	height: 30px;
+	line-height: 30px;
+}
+
+.list-proj-bread-l {
+	width: 120px;
+	float: left;
+	height: 30px;
+	text-align: left;
+	color: #333;
+}
+
+.list-proj-bread-r {
+	width: 120px;
+	float: right;
+	height: 30px;
+	text-align: right;
+	color: #999;
+}
+
+.bread-price {
+	font-size: 18px;
+	color: #f83836; 
+}
+
+.bread-proc {
+	font-size: 14px;
+	color: #333;
+}
+
+.list-list-page {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+
+.list-list-page a {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	margin: 0 7px;
+	border: 1px solid #979797;
+	color: #949494;
+	font-size: 14px;
+}
+
+.list-list-page a.page-arr {
+	background: #e5e4e2;
+	color: #fff;
+	font-weight: bold;
+	border: 1px solid #e5e4e2;
+}
+
+.list-list-page a.active,
+.list-list-page a:hover {
+	background: #0697da;
+	border: 1px solid #0697da;
+	color: #fff;
+}
+
+.list-right {
+	width: 265px;
+	float: left;
+}
+
+.list-right-hot {
+	width: 263px;
+	border: 1px solid #ededed;
+	margin-bottom: 10px;
+}
+
+.list-hot-ttl {
+	width: 235px;
+	font-size: 14px;
+	padding: 10px 14px;
+	background: #f2f2f2;
+	border-bottom: 1px solid #ededed;
+}
+
+.list-hot-cont {
+	background: #fff;
+}
+
+.list-hot-cont .hot-activity{
+	display: block;
+	margin: 8px auto;
+}
+
+.list-hot-item {
+	width: 235px;
+	padding: 14px;
+	margin-top: 4px;
+}
+
+.list-hot-item img {
+	float: left;
+	margin-right: 14px;
+}
+
+.list-hot-item .hot-item-ttl {
+	font-size: 12px;
+	color: #666;
+	line-height: 18px;
+}
+
+.list-hot-item .hot-item-price {
+	font-size: 12px;
+	color: #666;
+	line-height: 18px;
+}
+
+.list-hot-item .hot-item-price span {
+	color: #f83836;
+	font-size: 14px;
 }
