@@ -983,7 +983,7 @@ body {background:#fff;color:#666;font-size:14px;font-family:"微软雅黑","宋�
 	height: 26px;
 	text-align: center;
 	line-height: 26px;
-	margin: 0 7px;
+	margin: 0 3px;
 	border: 1px solid #979797;
 	color: #949494;
 	font-size: 14px;
@@ -1550,3 +1550,229 @@ span.must {
 	color: #999;
 	margin-top: 15px;
 }
+
+.user-addr {
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.user-addr-tips {
+	font-size: 12px;
+	color: #999;
+	margin-bottom: 20px;
+}
+
+.user-addr-btn {
+	width: 86px;
+	height: 38px;
+	border: 2px solid #ff6c00;
+	line-height: 32px;
+	text-align: center;
+	color: #ff6c00;
+	background: #fff;
+	outline: 0;
+	cursor: pointer;
+}
+
+.table-row-option {
+	padding: 0 4px;
+}
+
+.user-addr-save {
+	width: 98px;
+	height: 36px;
+	background: url(../images/user-btn.jpg) center no-repeat;
+	border: 0;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.proj-user {
+	width: 1150px;
+	height: 120px;
+	background: url(../images/proj-bg.jpg) center no-repeat;
+}
+
+.proj-user-img {
+	width: 81px;
+	height: 81px;
+	margin-top: 18px;
+	margin-left: 54px;
+	float: left;
+	position: relative;
+	margin-right: 20px;
+}
+
+.proj-real-img {
+	width: 81px;
+	height: 81px;
+}
+
+.proj-user h3 {
+	padding-top: 18px;
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 12px;
+}
+
+.proj-user-locate{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 13px;
+	height: 17px;
+	margin-left: 50px;
+	margin-right: 10px;
+	background: url(../images/locate.png) no-repeat;
+}
+
+.proj-user-time {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 14px;
+	height: 14px;
+	margin-left: 50px;
+	margin-right: 10px;
+	background: url(../images/jointime.png) no-repeat;
+}
+
+.proj-user-bread {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.proj-user-brief {
+	font-size: 12px;
+	color: #fff;
+}
+
+.proj-real-cover {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.proj-wrap {
+	width: 1148px;
+	border: 1px solid #ededed;
+	background: #fff;
+}
+
+.proj-left {
+	width: 199px;
+	float: left;
+}
+
+.proj-left-ttl {
+	font: 14px;
+	padding: 10px 38px;
+	color: #333;
+	background: #f2f2f2;
+	border-bottom: 1px solid #ededed;
+}
+
+.proj-left li {
+	height: 38px;
+	border-bottom: 1px solid #ededed;
+	line-height: 38px;
+}
+
+.proj-left li a {
+	color: #666;
+	padding-left: 38px;
+	display: block;
+	position: relative;
+}
+
+.proj-left li a span {
+	width: 2px;
+	height: 12px;
+	position: absolute;
+	background: #fff;
+	left: 25px;
+	top: 13px;
+}
+
+.proj-left li.active a {
+	color: #12afff;
+}
+
+.proj-left li.active a span {
+	background: #12afff;
+}
+
+.proj-right {
+	width: 948px;
+	border-left: 1px solid #ededed;
+	float: left;
+}
+
+.proj-content {
+	padding: 20px 10px;
+}
+
+.proj-content table {
+	width: 100%;
+}
+
+.proj-table-head {
+	border-top: 1px solid #e3e3e3;
+	background: #f2f2f2;
+	height: 40px;
+	line-height: 40px;
+}
+
+.proj-table-row {
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.proj-table-name {
+	width: 620px; 
+	padding: 25px;
+}
+
+.proj-table-name img {
+	width: 80px;
+	height: 80px;
+	float: left; 
+	margin-right: 20px; 
+}
+
+.proj-name-name {
+	color: #333;
+}
+
+.proj-table-date {
+	vertical-align: text-top;
+	width: 150px; 
+	text-align: center;
+	padding-top: 25px;
+}
+
+.proj-buy-status {
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	border-bottom: 2px solid #ededed;
+	margin-bottom: 20px;
+}
+
+.proj-buy-status li {
+	width: 94px;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+}
+
+.proj-buy-status li.active {
+	border-bottom: 2px solid #ff4800;
+}
+
+.proj-buy-status li a {
+	display: block;
+	color: #333;
+}
+
+
